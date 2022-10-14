@@ -117,8 +117,8 @@ h1 span {
 
 /* Layout */
 .notification-container {
-  background-color: red;
-  width: 100vw;
+
+  /* width: 100vw; */
 
   padding: 15px;
   /* display: none; */
@@ -164,10 +164,10 @@ h1 span {
 }
 
 .pm-contianer {
-  /* padding: 2px; */
+
 
   margin-left: 12px;
-  /* background-color: grey; */
+
   border: solid grey .5px;
 
 }
@@ -255,5 +255,54 @@ h1 span {
     /* min-height: 90px; */
 
   }
+
+}
+
+@media (max-width:425px) {
+
+
+
+
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  h1 span {
+    font-size: .75rem;
+    width: 30px;
+    padding: 0 5px;
+    margin: 0;
+    margin-left: 10px;
+  }
+
+  .notification-container-top p {
+    font-size: .75rem;
+  }
+
+  .card p {
+    font-size: .75rem;
+    line-height: 1rem;
+
+  }
+
+  .avi {
+    height: 2.25rem;
+    width: 2.25rem;
+  }
+
+
+  .card {
+
+    border-radius: 5px;
+    display: flex;
+
+    align-items: center;
+    padding: 0px 0px 20px 20px;
+    margin-bottom: 10px;
+
+
+  }
+
 
 }
