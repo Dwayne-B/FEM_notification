@@ -117,11 +117,11 @@ h1 span {
 
 /* Layout */
 .notification-container {
+  background-color: red;
+  width: 100vw;
 
-  max-width: 632px;
   padding: 15px;
   /* display: none; */
-
 
 }
 
